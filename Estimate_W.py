@@ -76,7 +76,7 @@ def Wfast(img,nstains,lamb,num_patches,patchsize,level,background_correction=Fal
 		print("Number of white pixels sampled",len(white_pixels))
 		if len(white_pixels)<min_num_white:
 			i0=np.array([255.0,255.0,255.0])
-			print "Not enough white pixels found, default background intensity assumed"
+			print("Not enough white pixels found, default background intensity assumed")
 		elif len(white_pixels)>0:
 			i0 = np.percentile(white_pixels,I_percentile,axis=0)[:3]
 		else:
