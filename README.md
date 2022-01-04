@@ -3,6 +3,12 @@ Codes for Fast GPU-Enabled Color Normalization of Whole Slide Images in Digital 
 
 This repository hosts python codes for Fast GPU-Enabled Color Normalization of Whole slide Images(WSI) in computational pathology.
 
+## Installation:
+```
+conda create -n "myenv" python=3.7
+```
+
+
 Please cite both papers if you use this code: 
 
 	@article{ramakrishnan_fast_2019,
