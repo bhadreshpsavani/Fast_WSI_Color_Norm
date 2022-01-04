@@ -8,7 +8,7 @@ This repository hosts python codes for Fast GPU-Enabled Color Normalization of W
 conda create -n "myenv" python=3.7
 ```
 
-
+## Citation
 Please cite both papers if you use this code: 
 
 	@article{ramakrishnan_fast_2019,
